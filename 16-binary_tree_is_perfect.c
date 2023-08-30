@@ -52,7 +52,8 @@ int binary_tree_balance(const binary_tree_t *tree)
 /**
  * perf - checks if the tree is perfect
  * @tree: a pointer to a tree
- * Return: 1 if is perfect or 0 if not*/
+ * Return: 1 if is perfect or 0 if not
+ */
 int perf(const binary_tree_t *tree)
 {
 	if (tree == NULL)
