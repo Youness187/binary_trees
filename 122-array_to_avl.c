@@ -18,10 +18,12 @@ avl_t *array_to_avl(int *array, size_t size)
 		for (j = 0; j <= i; j++)
 		{
 			if (array[j] == array[i])
+			{
 				if (j == i)
 					if (!avl_insert(&tree, array[i]))
 						return (NULL);
 				break;
+			}
 		}
 	}
 	return (tree);
