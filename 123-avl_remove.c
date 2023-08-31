@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-
 /**
  * measures_balance - Measures balance factor of a AVL
  * @tree: tree
